@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+/*#import <MapKit/MapKit.h>*/
+@interface ViewController : UIViewController/*<MKMapViewDelegate>*/
+/*@property (strong, nonatomic) IBOutlet MKMapView *mapView;*/
+@property (strong, nonatomic) IBOutlet UIView *mapContainer;
 
 
 @end
